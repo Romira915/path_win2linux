@@ -1,0 +1,13 @@
+[package]
+name = "path_win2unix"
+version = "0.1.0"
+authors = ["Yudai915 <40430090+Yudai915@users.noreply.github.com>"]
+edition = "2018"
+description = "Convert path from windows notation to unix notation"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.11"
+env_logger = "0.7.1"
+clap = "2.33.3"
